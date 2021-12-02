@@ -1,0 +1,109 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+
+.page4{
+    /* border: 1px solid red; */
+    margin-top: 80px;
+    margin-bottom: 40px;
+    /* margin:0px; */
+    padding: 0px;
+}   
+.page4 .page4-main-container{
+    /* border: 1px solid black; */
+  
+}
+.page4 .page4-main-container .page4-main-row{
+    /* border: 1px solid aqua; */
+   
+}
+.page4-main-row .page4-main-box{
+    /* border: 1px solid blue; */
+    padding: 0px;
+  
+}
+
+@media screen and (min-width: 0px) {
+    .page4-main-box{
+        /* border: 1px solid red; */
+        padding: 0px;
+    }
+}
+
+@media screen and (min-width: 992px){
+
+    #page4-left{
+        /* border: 1px solid blue; */
+        padding-right: 10px;
+    }
+    #page4-middle{
+        /* border: 1px solid blue; */
+        padding: 0px 10px;
+    }
+    #page4-right{
+        /* border: 1px solid blue; */
+        padding-left: 10px;
+    }
+
+}
+    
+
+
+
+.page4-main-box .page4-box{
+    /* border: 1px solid red; */
+
+}
+.page4-box #left-img{
+    /* border: 1px solid lime; */
+    background: url(../img/ambulance.jpg) no-repeat center center/cover;
+    width:100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+   
+}
+.page4-box #middle-img{
+    /* border: 1px solid lime; */
+    background: url(../img/cabin.jpg) no-repeat center center/cover;
+    width:100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page4-box #right-img{
+    /* border: 1px solid lime; */
+    background: url(../img/app2.jpg) no-repeat center center/cover;
+    width:100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    
+}
+.page4-box .page4-image:hover{
+    filter: opacity(85%);
+    /* transform: translateY(-5px); */
+    /* transition: 0.2s; */
+    cursor: pointer;
+}
+
+.page4-box .page4-text{
+    /* border: 1px solid blue; */
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0px;
+}
+
+.page4-box .page4-text a{
+    /* text-decoration: none; */
+    color: rgb(6, 60, 139);
+}

@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.page7{
+    /* border: 1px solid blue; */
+    padding: 40px 0px;
+    /* background: url(../img/photo-1581159186721-b68b78da4ec9.jpg) no-repeat center center / cover;   */
+    background-image: linear-gradient(60deg, rgb(1, 76, 138),rgb(105, 159, 209,0.9),rgb(1, 76, 138));
+    margin-top: 40px;
+}
+.page7 .page7-main-container{
+    /* border: 2px solid rebeccapurple; */
+    padding: 0px;
+    
+    
+}
+.page7 .page7-main-container .page7-main-row{
+    /* border: 1px solid aqua; */
+    padding: 0px;
+    margin: 0px;
+    /* padding: 25px 0px;
+    background-image: linear-gradient(40deg, rgb(37, 37, 105),rgb(105, 159, 209,0.9),rgb(37, 37, 105)); */
+ 
+}
+.page7-main-box{
+    /* border: 1px solid lime; */
+    padding: 10px 0px 10px 0px;
+    margin: 0px;
+    background-color: rgb(105, 159, 209,0.4);
+    /* color: rgb(0, 27, 53); */
+    color: rgb(203, 207, 212);
+  
+}
+.about-container{
+    /* border:1px solid orange; */
+    padding: 0px;
+    margin: 0px;
+}
+.about-row{
+    /* border: 1px solid red; */
+    padding: 0px;
+    margin: 0px;
+}
+.about-row .page7-box{
+    /* border: 1px solid black; */
+    padding: 0px;
+    margin: 0px;
+}
+.about-row #page7-upper{
+    /* border: 1px solid blue; */
+    
+    /* display: flex;
+    align-items: center; */
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 25px;
+    padding:10px 0px 10px  0px;
+    margin: 0px;
+    
+
+}
+#page7-lower .page7-text{
+    /* border: 1px solid red; */
+    padding:10px 0px 0px 0px;
+    
+    
+}
+
+#contact .contact-con{
+    /* border: 1px solid lime; */
+}
+
+#contact .contact-con .contact-row{
+    /* border: 1px solid blue; */
+
+}
+.contact-us{
+    /* border: 1px solid aqua; */
+}
+#up{
+    /* border: 1px solid blue; */
+    padding: 10px 0px;
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+#email{
+    border: 1px solid rgb(1, 1, 104);
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color:  rgb(105, 159, 209,0.3);
+    color: rgb(203, 207, 212);
+   
+}
+#text{
+    border: 1px solid rgb(1, 1, 104);
+    padding: 5px 15px 25px 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color:  rgb(105, 159, 209,0.3);
+    color: rgb(203, 207, 212)
+}
+
+#button{
+    /* border: 1px solid aqua; */
+    padding: 10px 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color:white;
+    background-color: rgb(13, 47, 141);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+#button:hover{
+    background-color: rgb(168, 168, 189);
+}

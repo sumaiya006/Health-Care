@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+
+.page6{
+    /* border: 1px solid blue; */
+    padding: 40px 0px;
+    
+    
+}
+.page6 .page6-main-container{
+    /* border: 1px solid rebeccapurple; */
+    padding: 0px;
+    
+    
+}
+.page6 .page6-main-container .page6-main-row{
+    border: 3px solid rgb(105, 159, 209,0.9);
+    padding:0px;
+ 
+}
+.page6 .main-box{
+    /* border: 1px solid blue; */
+  
+}
+#page6-upper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(105, 159, 209,0.9);
+    padding: 5px 0px;
+}
+#page6-lower .lower-container-fluid{
+    /* border: 1px solid aqua; */
+    margin: 0px;
+    padding: 0px;
+}
+#page6-lower .lower-container-fluid .lower-row{
+    /* border: 1px solid green; */
+    margin: 0px;
+    padding: 0px;
+}
+.lower-row .page6-lower-box{
+    /* border: 1px solid orange; */
+    /* margin: 10px 2px; */
+    margin: 0px;
+    padding: 30px 0px;
+
+
+}
+.page6-lower-box .page6-text{
+    /* border: 1px solid blue; */
+    width:150px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    background-color: rgb(105, 159, 209,0.9);
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+
+     
+
+}
+.page6-lower-box .page6-text:hover{
+    box-shadow: 1px 1px 3px  rgb(105, 159, 209,0.9),1px 1px 10px 1px white;
+    opacity: 0.9;
+    /* transform: translateY(-5%); */
+}
+.page6-lower-box .show-result{
+    /* border: 1px solid blue; */
+    width:150px;
+    margin: 0px auto;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(105, 159, 209,0.9);
+    box-shadow: 1px 1px 5px 1px rgb(105, 159, 209,0.9);
+    
+   
+}
